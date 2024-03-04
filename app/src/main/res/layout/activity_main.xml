@@ -27,20 +27,21 @@
             android:id="@+id/question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Es Kotlin un Lenguaje de Google?"
+            android:text="@string/question_1"
             android:textSize="40sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/horLay"
-        android:layout_width="409dp"
-        android:layout_height="363dp"
+        android:layout_width="400dp"
+        android:layout_height="136dp"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@+id/vertLay"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vertLay">
 
         <Button
             android:id="@+id/btn_true"
@@ -50,11 +51,27 @@
             android:text="Si" />
 
         <Button
+            android:id="@+id/btn_Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Siguiente" />
+
+        <Button
             android:id="@+id/btn_false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="No" />
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/finalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="604dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

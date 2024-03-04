@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">QuizzTest</string>  
-    <string name="Question">Question</string>
+    <string name="question_1">Los patos son mamiferos?</string>
+    <string name="question_2">Hidalgo es Mexicano?</string>
+    <string name="question_3">Cuvalles es un cerro ?</string>
+    <string name="question_4">El agua Moja?</string>
+    <string name="question_5">El fuego quema ?</string>
     <string name="Verdadero">btrue</string>
     <string name="Falso">bfalso</string>
 </resources>
+
